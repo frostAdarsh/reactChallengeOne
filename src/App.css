@@ -1,0 +1,55 @@
+.APP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: azure;
+}
+
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.cen-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 8px;
+  font-size: large;
+}
+.show-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+  gap: 20px;
+}
